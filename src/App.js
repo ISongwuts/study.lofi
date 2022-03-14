@@ -32,7 +32,6 @@ function App() {
           <Container className="mt-3">
             <Navbar.Brand href="#home">Study.Lofi</Navbar.Brand>
             <Nav className="me-auto center-navbar">
-              <AudioPlayer autoPlay src={AOT} volume={0.5}/>
               <Nav.Link href="#features">
                 <GiMusicalNotes />
               </Nav.Link>
@@ -48,7 +47,7 @@ function App() {
             </Nav>
           </Container>
         </Navbar>
-
+        <AudioPlayer autoPlay src={AOT} volume={0.5} />
         <img src={Chillsday} className="background" alt="bg" />
       </div>
     </FullScreen>

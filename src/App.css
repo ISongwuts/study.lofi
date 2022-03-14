@@ -12,15 +12,28 @@
 .background {
   user-select:none;
   z-index: -1;
-  top: -150px;
-position: relative;
+  top: -0px;
+  position: absolute;
   height: 100%;
   width: 100%;
   overflow: hidden;
 }
 .rhap_container{
+  transform: translateY(850%);
+  width: 500px !important;
+  margin: 0 auto !important; 
   background-color: transparent !important;
+  box-shadow: none !important;
 }
 .rhap_time{
+  
   color: #fff !important;
+}
+
+.rhap_progress-filled{
+  background-color: #fff !important;
+}
+
+path{
+  fill: #fff !important;
 }

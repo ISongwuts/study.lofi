@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
+}
+.wrap-background{
+  max-height: 1080px;
+  max-width: 1920px;
+  
+}
+.background {
+  user-select:none;
+  z-index: -1;
+  top: -150px;
+position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.rhap_container{
+  background-color: transparent !important;
+}
+.rhap_time{
+  color: #fff !important;
+}
